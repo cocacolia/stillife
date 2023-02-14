@@ -1,0 +1,126 @@
+#plane {
+  height: 200px;
+  width: 700px; 
+  background-color: #FF8247FF; 
+  margin-top: 400px; 
+  margin-left: 150px; 
+  transform: skew(45deg);
+}
+#circle {
+  height: 200px;
+  width: 400px;
+  background-color: #92DE47FF;
+  position: absolute;
+  top: 440px;
+  left: 330px; 
+  border-radius: 50%;
+  transform: rotate(-2deg);
+  -webkit-box-shadow: 10px 10px 37px -7px rgba(0,100,125,1);
+-moz-box-shadow: 10px 10px 37px -7px rgba(0,100,125,1);
+box-shadow: 10px 10px 37px -7px rgba(0,100,125,1);
+}
+#tennis {
+  width: 200px;
+  height: 158px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 362px;
+  left: 540px;
+  transform: rotate(15deg)
+}
+#leaflet {
+  width: 220px;
+  height: 70px;
+  background-color: #008582FF;
+  position: absolute;
+  top: 430px;
+  left: 200px;
+  background-image: linear-gradient(to bottom right, #00F084FF , #008582FF);
+  transform: skew(-60deg, 10deg);
+}
+#handle {
+  width: 100px;
+  height: 30px;
+  background-color: #9E8465FF;
+  position: absolute;
+  top: 497px;
+  left: 718px;
+  transform: rotate(28deg) skew(-10deg);
+}
+#handle2 {
+  border-bottom: 30px solid #9E8465FF;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 30px;
+  position: absolute;
+  top: 472px;
+  left: 663px;
+  transform: rotate(127deg);
+}
+#glass {
+  border-top: 200px solid #B2CAD6FF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+  opacity: 0.7;
+	height: 0;
+	width: 60px;
+  position: absolute;
+  top: 360px;
+  left: 450px;
+}
+.ball {
+  height: 47px;
+  width: 47px; 
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 422px;
+  left: 480px;
+}
+#white {
+  background-color: white;
+  top: 467px;
+  left: 464px;
+}
+#white1 {
+  background-color: #E6F9FFFF;
+  top: 510px;
+}
+#white2 {
+  top: 373px;
+  left: 480px;
+  background-color: #E6F9FFFF;
+}
+.pompe {
+  background-color: orange;
+  height: 60px;  
+  width: 130px;
+  position: relative;
+  border-radius: 50%;
+  position: absolute;
+  top: 375px;
+  left: 480px;
+}
+#pompe1 {
+  top: 365px;
+  background-color: #C2673AFF;
+}
+#pompe2 {
+  top: 355px;
+  background-color: orange;
+}
+#pompe3 {
+  top: 345px;
+  background-color: #C2673AFF;
+}
+#pompe4 {
+  top: 335px;
+  background-color: orange;
+}
+#pompe5 {
+  top: 325px;
+  background-color: #C2673AFF;
+  transform: scale(0.8);
+}
